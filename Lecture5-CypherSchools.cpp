@@ -1,17 +1,33 @@
 #include<iostream>
 using namespace std;
 
-//    int x;  //variable can store single integer
-//    //arrays can be used to store multiple values in single variable name.
-//    int a[5]; // an array of name a  can store 6 integers.as array stars from 0 not 1
-//    //elements from 0-5
-//    //1st el will have index 0-->a[0]
+//1
+//int main()
+//{
+//    int a[4];
+//    cout<<"give 5 integers as input"<<endl;
+//    for(int i=0;i<5;i++){
+//        cin>>a[i];
+//    }
+//
+//    cout<<"the  5 given inputs are:"<<endl;
+//    for(int i=0;i<5;i++){
+//        cout<<a[i]<<" ";
+//    }
+//}
 
+
+//2
 int main()
 {
-    int a,b,c,d,e;
-    cout<<"give 5 integers a s input"<<endl;
-    cin>>a>>b>>c>>d>>e;
-    cout<<"The integers in reverse order are: "<<e<<d<<c<<b<<a;
-return 0;
+    int a[10];
+    cout<<"give 10 integers as input"<<endl;
+    for(int i=0;i<10;i++){
+        cin>>a[i];
+    }
+
+    cout<<"the  10 given inputs are:"<<endl;
+    for(int i=9;i>=0;i--){
+        cout<<a[i]<<" ";
+    }
 }
